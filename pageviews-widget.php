@@ -1,9 +1,10 @@
 <?php
 /**
- * Plugin Name: Pageviews Widget
- * Description: A widget for the Pageviews plugin
+ * Plugin Name: Pageviews Widget (pressjitsu, @big_jacky)
+ * Description: A widget for the Pageviews plugin <a href="https://github.com/pressjitsu/pageviews-widget/">Author</a> | <a href="https://github.com/pressjitsu/pageviews-widget/">Fork</a>
  * Plugin URI: https://github.com/pressjitsu/pageviews-widget/
- * Version: 0.8-beta
+ * GitHub Plugin URI: https://github.com/seojacky/my-breadcrumbs
+ * Version: 1.8-beta
  * License: GPLv3 or later
  */
 
@@ -99,7 +100,8 @@ class Pageviews_Widget extends WP_Widget {
 					}
 					?>
 					<li>
-						<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+						<!--<a href="<?php the_permalink(); ?>"><?php the_title(); ?><?php the_post_thumbnail('medium'); ?></a>-->
+						<a href="<?php the_permalink(); ?>"><?php the_title(); ?><div style="background: url(<?php echo get_the_post_thumbnail_url ($post->ID, 'medium'); ?>) no-repeat center center; background-size: cover; padding-top: 56%;"></div></a>
 					</li>
 					<?php
 				}
