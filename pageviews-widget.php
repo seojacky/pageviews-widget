@@ -2,8 +2,8 @@
 /**
  * Plugin Name: Pageviews Widget (pressjitsu, @big_jacky)
  * Description: A widget for the Pageviews plugin <a href="https://github.com/pressjitsu/pageviews-widget/">Author</a> | <a href="https://github.com/pressjitsu/pageviews-widget/">Fork</a>
- * Plugin URI: https://github.com/pressjitsu/pageviews-widget/
- * GitHub Plugin URI: https://github.com/seojacky/my-breadcrumbs
+ * Plugin URI: https://github.com/seojacky/pageviews-widget
+ * GitHub Plugin URI: https://github.com/seojacky/pageviews-widget
  * Version: 1.8-beta
  * License: GPLv3 or later
  */
